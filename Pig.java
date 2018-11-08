@@ -9,8 +9,8 @@ class Pig implements Animal//implements Animal
     }
     public Pig(String pork, String bacon)
     {
-    	sou=pork;
-    	typ=bacon;
+    	sou=bacon;
+    	typ=pork;
     }
     public String getSound()
     {

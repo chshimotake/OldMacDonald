@@ -9,8 +9,8 @@ class Cow implements Animal//implements Animal
     }
     public Cow(String beef, String steak)
     {
-    	sou=beef;
-    	typ=steak;
+    	sou=steak;
+    	typ=beef;
     }
     public String getSound()
     {
